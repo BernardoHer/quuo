@@ -1,0 +1,117 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 280px;
+  height: 56px;
+  background: #E8EEFF 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 0px 10px #4676C32C;
+  border-radius: 18px;
+  margin: 20px 20px 12px 20px;
+}
+
+.label-input {
+  width: 248px;
+  height: 16px;
+  text-align: left;
+  font: normal normal normal 12px/20px Montserrat;
+  color: #506698;
+  font-weight: 500;
+  margin: 8px 16px 4px 16px;
+}
+
+.styled-input {
+  width: 248px;
+  height: 20px;
+  text-align: left;
+  font: normal normal 600 16px/20px Montserrat;
+  letter-spacing: 0px;
+  color: #363C52;
+  background: transparent;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.range-wrapper-monto {
+  width: 284px;
+  height: 48px;
+  margin: 0px 20px 20px 20px;
+}
+
+.range-wrapper-plazo {
+  width: 284px;
+  height: 48px;
+  margin: 0px 20px 28px 20px;
+}
+
+.styled-range {
+  width: 280px;
+  height: 16px;
+  background: #E8EEFF 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 0px 10px #4676C32C;
+  border-radius: 8px;
+  margin: 16px 4px 16px 0px;
+}
+
+.total {
+  width: 260px;
+  text-align: center;
+  font: normal normal bold 24px/24px Montserrat;
+  letter-spacing: 0px;
+  color: #363c52;
+  margin: 0px 28px 0px 32px;
+}
+
+.smaller-zeros {
+  font-size: 0.8em;
+}
+
+.cuota-mensual {
+  width: 260px;
+  height: 24px;
+  text-align: center;
+  font: normal normal 600 14px/20px Montserrat;
+  color: #00b0f4;
+  margin: 4px 28px 16px 32px;
+}
+
+.simulacion-title {
+  text-align: center;
+  font: normal normal normal 14px/24px Montserrat;
+  color: #818cb4;
+  margin: 0px 36px 0px 40px;
+}
+
+.want-button {
+  width: 280px;
+  height: 48px;
+  background: transparent linear-gradient(180deg, #05BCFD 0%, #0599FB 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 16px #007AF829;
+  border-radius: 32px;
+  border: none;
+  margin: 24px 20px 16px 20px;
+  cursor: pointer;
+  text-align: center;
+  font: normal normal 16px/20px Montserrat;
+  color: #FFFFFF;
+  font-weight: 300px;
+}
+
+.simulate-button {
+  width: 280px;
+  height: 48px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 16px #4676C32C;
+  border-radius: 24px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font: normal normal normal 16px/24px Montserrat;
+  color: #007AF8;
+  margin: 0px 20px 20px 20px;
+}
+
+.want-button:hover, .simulate-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
