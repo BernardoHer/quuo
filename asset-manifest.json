@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/quuo/static/css/main.375f98fb.css",
+    "main.js": "/quuo/static/js/main.8e4caad3.js",
+    "static/js/453.06ee4437.chunk.js": "/quuo/static/js/453.06ee4437.chunk.js",
+    "static/media/shutterstock_2138770023@2x.png": "/quuo/static/media/shutterstock_2138770023@2x.541d1cf219077395b4d4.png",
+    "static/media/iconos quuo_Credito Estudiantil N@2x.png": "/quuo/static/media/iconos quuo_Credito Estudiantil N@2x.cd3871a0777e7e76720a.png",
+    "static/media/iconos quuo_Credito Vehiculo N@2x.png": "/quuo/static/media/iconos quuo_Credito Vehiculo N@2x.bc06c3fd0291e8ac516a.png",
+    "static/media/Trazado 342@2x.png": "/quuo/static/media/Trazado 342@2x.7c5b1c5c240b5e506a99.png",
+    "static/media/iconos quuo_Credito Hipotecario N@2x.png": "/quuo/static/media/iconos quuo_Credito Hipotecario N@2x.a19b623a2e223ce5f42a.png",
+    "static/media/Capa_1-2.svg": "/quuo/static/media/Capa_1-2.a0c00259b685da3d2b65e4b00f3016be.svg",
+    "index.html": "/quuo/index.html",
+    "main.375f98fb.css.map": "/quuo/static/css/main.375f98fb.css.map",
+    "main.8e4caad3.js.map": "/quuo/static/js/main.8e4caad3.js.map",
+    "453.06ee4437.chunk.js.map": "/quuo/static/js/453.06ee4437.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.375f98fb.css",
+    "static/js/main.8e4caad3.js"
+  ]
+}
