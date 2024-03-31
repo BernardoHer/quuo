@@ -1,0 +1,60 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  width: 360px;
+  height: 305px;
+  margin-bottom: 23px;
+}
+
+.logo-container {
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+  background: #FAFBFF 0% 0% no-repeat padding-box;
+  box-shadow: -8px -8px 16px #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.logo {
+  width: 85px;
+  height: 82px;
+  background: transparent;
+}
+
+.credito-title {
+  width: 320px;
+  height: 48px;
+  text-align: center;
+  font: normal normal bold 40px/48px Montserrat;
+  color: #363C52;
+  margin: 0px;
+  margin-bottom: 9.56px;
+}
+
+.pasos-image {
+  width: 138px;
+  height: 34px;
+  margin-bottom: 40px;
+}
+
+.credito-subtitle {
+  width: 320px;
+  height: 20px;
+  text-align: center;
+  font: normal normal normal 16px/20px Montserrat;
+  color: #363C52;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.credito-subtitle span {
+  font-weight: bold;
+}

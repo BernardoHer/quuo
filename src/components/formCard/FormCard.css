@@ -1,0 +1,131 @@
+.form-title {
+  width: 320px;
+  height: 20px;
+  text-align: center;
+  font: normal normal normal 16px/20px Montserrat;
+  color: #363C52;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.form-title span {
+  font-weight: bold;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-top: 48px;
+  margin-bottom: 40px;
+
+}
+
+.form-group {
+  display: flex;
+  width: 296px;
+  height: 56px;
+  background: #E8EEFF 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 0px 10px #4676C32C;
+  border-radius: 18px;
+}
+
+.input-icon {
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font: normal normal 300 24px/20px;
+  color: #818CB4;
+  margin: 16px;
+}
+
+.input-form {
+  width: 224px;
+  height: 20px;
+  text-align: left;
+  font: normal normal normal 16px/20px Montserrat;
+  color: #363C52;
+  background-color: transparent;
+  border: none;
+  margin: 18px 16px 18px 0px;
+  font-weight: 600;
+}
+
+.conditions-container {
+  display: flex;
+  margin: 0px 12px 20px 20px;
+  align-items: flex-start;
+}
+
+#accept {
+  width: 55px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #00B0F4;
+  background-color: white;
+  cursor: pointer;
+  appearance: none;
+  position: relative;
+}
+
+#accept:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#accept:checked {
+  background-color: #00B0F4;
+}
+
+.text-conditions {
+  width: auto;
+  height: auto;
+  text-align: left;
+  font: normal normal normal 16px/24px Montserrat;
+  color: #818CB4;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.text-conditions span {
+  margin-right: 5px;
+  text-decoration: underline;
+  color: #00B0F4;
+}
+
+.form-button {
+  width: 288px;
+  height: 48px;
+  border-radius: 32px;
+  border: none;
+  color: #FFFFFF;
+  font: normal normal bold 16px/20px Montserrat;
+  cursor: pointer;
+  margin: 0px 16px 20px 16px;
+}
+
+.form-button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.form-button.disabled {
+  background: #DFE3ED 0% 0% no-repeat padding-box;
+  cursor: not-allowed;
+}
+
+.form-button.enabled {
+  background: transparent linear-gradient(180deg, #05BCFD 0%, #0599FB 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 16px #007AF829;
+}
+
+.thanks-title {
+  text-align: center;
+}
